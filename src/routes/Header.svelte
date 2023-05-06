@@ -35,7 +35,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: --color-bg;
+        background-color: var(--color-bg);
         padding: 1rem;
     }
 
