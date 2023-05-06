@@ -29,6 +29,7 @@
         box-sizing: border-box;
     }
 
+    
     /* Style the navigation bar container */
     .navbar {
         display: flex;
