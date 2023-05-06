@@ -7,6 +7,15 @@
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
 	font-family: var(--font-body);
+
+	--color-primary: #3626A7;
+	--color-secondary-1: #FF331F;
+	--color-secondary-2: #828181;
+	--color-bg: #0d0106;
+	--color-text: #FBFBFF;
+	
+	color: var(--color-text);
+	background-color: var(--color-bg);
 }
 
 [data-theme="darkmode"] {
