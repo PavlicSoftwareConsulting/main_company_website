@@ -29,13 +29,13 @@
         box-sizing: border-box;
     }
 
-    
+
     /* Style the navigation bar container */
     .navbar {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: #333;
+        background-color: --color-bg;
         padding: 1rem;
     }
 
