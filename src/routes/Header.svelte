@@ -1,56 +1,71 @@
 <script>
+    import logo from '$lib/images/logo.svg';
 </script>
 
 <header>
     <nav class="navbar">
-        <a href="#" class="navbar-brand">MyBrand</a>
+        <a href="/index" class="navbar-brand">
+            <img class="logo" src={logo} alt="Pavlic Software Consulting Logo"/>
+        </a>
         <ul class="navbar-menu">
             <li class="navbar-item">
-                <a href="#" class="navbar-link">Home</a>
+                <a href="/about" class="navbar-link">About us</a>
             </li>
             <li class="navbar-item">
-                <a href="#" class="navbar-link">About</a>
+                <a href="/index" class="navbar-link">Services</a>
             </li>
             <li class="navbar-item">
-                <a href="#" class="navbar-link">Services</a>
+                <a href="/index" class="navbar-link">Projects</a>
             </li>
             <li class="navbar-item">
-                <a href="#" class="navbar-link">Contact</a>
+                <a href="/index" class="navbar-link">Careers</a>
+            </li>
+            <li class="navbar-item">
+                <a href="/index" class="navbar-link">Blog</a>
+            </li>
+            <li class="navbar-item">
+                <a href="/index" class="navbar-link">Contact us</a>
+            </li>
+            <li class="navbar-item">
+                <a href="/index" class="navbar-link">FAQs</a>
             </li>
         </ul>
     </nav>
 </header>
 
 <style>
-    /* Reset default styles */
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
 
+   header, header nav {
+        width: 100vw;
+        margin: 0;
+        box-sizing: border-box;
+    } 
 
     /* Style the navigation bar container */
     .navbar {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: var(--color-bg);
+        /* background-color: var(--color-secondary-2); */
         padding: 1rem;
     }
 
-    /* Style the brand link */
-    .navbar-brand {
-        font-size: 1.5rem;
-        font-weight: bold;
-        color: white;
-        text-decoration: none;
+    /* Style the logo */
+
+    .navbar-brand { 
+        margin: 0;
+    }
+
+    .navbar .logo {
+        margin: 0;
+        height: 4.5rem;
     }
 
     /* Style the menu list and items */
     .navbar-menu {
         display: flex;
         list-style-type: none;
+        padding: 0;
     }
 
     .navbar-item {
@@ -59,7 +74,7 @@
 
     /* Style the menu links */
     .navbar-link {
-        color: white;
+        color: var(--color-secondary-1);
         text-decoration: none;
         transition: color 0.3s;
     }

@@ -1,45 +1,29 @@
 @import '@fontsource/fira-mono';
 
 :root {
-	--font-body: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	--font-mono: 'Fira Mono', monospace;
-	--column-width: 42rem;
-	--column-margin-top: 4rem;
-	font-family: var(--font-body);
-
-	--color-primary: #3626A7;
-	--color-secondary-1: #FF331F;
-	--color-secondary-2: #828181;
-	--color-bg: #0d0106;
-	--color-text: #FBFBFF;
-	
-	color: var(--color-text);
-	background-color: var(--color-bg);
-}
-
-[data-theme="darkmode"] {
-	--color-primary: #3626A7;
-	--color-secondary-1: #FF331F;
-	--color-secondary-2: #828181;
-	--color-bg: #0d0106;
-	--color-text: #FBFBFF;
-	
-	color: var(--color-text);
-	background-color: var(--color-bg);
-}
-
-[data-theme="lightmode"] {
-	--color-primary: #3626A7;
-	--color-secondary-1: #FF331F;
-	--color-secondary-2: #828181;
-	--color-bg: #FBFBFF;
-	--color-text: #0d0106;
-
-	color: var(--color-text);
-	background-color: var(--color-bg);
+    --font-body: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+                    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --font-mono: 'Fira Mono', monospace;
+    --column-width: 42rem;
+    --column-margin-top: 4rem;
+    --color-primary: #3626A7;
+    --color-secondary-1: #FF331F;
+    --color-secondary-2: #828181;
+    --color-bg:  #FBFBFF;
+    --color-text:#0d0106;
+    
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    font-family: var(--font-body);
 }
 
 body {
-	margin: 0;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    height: 100vh;
 }

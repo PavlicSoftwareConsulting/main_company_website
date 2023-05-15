@@ -1,31 +1,25 @@
 <script>
+	import './global.css'
 	import Header from './Header.svelte';
 	import Footer from './Footer.svelte';
-	import './global.css';
 </script>
 
-<div class="app">
-	<Header />
 
-	<main class='theme-darkmode'>
-		<slot />
-	</main>
-
-	<Footer />
-</div>
+<Header />
+<main>
+	<slot />
+</main>
+<Footer />
 
 <style>
-	.app {
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
-	}
-
 	main {
+		margin-left: 3rem;
+		margin-right: 3rem;
 		flex: 1;
 		display: flex;
+		flex-grow: 1;
 		flex-direction: column;
-		width: 100%;
+		align-items: center;
 		box-sizing: border-box;
 	}
 </style>
