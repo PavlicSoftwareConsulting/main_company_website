@@ -3,50 +3,63 @@
 </script>
 
 <header>
-    <nav class="navbar">
-        <a href="/" class="navbar-brand">
-            <img class="logo" src={logo} alt="Pavlic Software Consulting Logo"/>
-        </a>
-        <ul class="navbar-menu">
-            <li class="navbar-item">
-                <a href="/about" class="navbar-link">About us</a>
-            </li>
-            <li class="navbar-item">
-                <a href="/" class="navbar-link">Services</a>
-            </li>
-            <li class="navbar-item">
-                <a href="/" class="navbar-link">Projects</a>
-            </li>
-            <li class="navbar-item">
-                <a href="/" class="navbar-link">Careers</a>
-            </li>
-            <li class="navbar-item">
-                <a href="/" class="navbar-link">Blog</a>
-            </li>
-            <li class="navbar-item">
-                <a href="/" class="navbar-link">Contact us</a>
-            </li>
-            <li class="navbar-item">
-                <a href="/" class="navbar-link">FAQs</a>
-            </li>
-        </ul>
-    </nav>
+    <div class="header-content">
+        <nav class="navbar">
+            <a href="/" class="navbar-brand">
+                <img class="logo" src={logo} alt="Pavlic Software Consulting Logo"/>
+            </a>
+            <ul class="navbar-menu">
+                <li class="navbar-item">
+                    <a href="/about" class="navbar-link">About us</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="/" class="navbar-link">Services</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="/" class="navbar-link">Projects</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="/" class="navbar-link">Careers</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="/" class="navbar-link">Blog</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="/" class="navbar-link">Contact us</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="/" class="navbar-link">FAQs</a>
+                </li>
+            </ul>
+            <div class="navbar-request-quote">
+                <a href="/"><span class="navbar-request-quote-text">Request Quote</span></a>
+            </div>
+        </nav>
+    </div>
 </header>
 
 <style>
 
-   header, header nav {
+   header {
+        position: sticky;
+        top: 0;
         width: 100vw;
-        margin: 0;
-        box-sizing: border-box;
+        background-color: var(--color-white);
     } 
+
+    .header-content {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
 
     /* Style the navigation bar container */
     .navbar {
+        padding: 1rem;
+        margin: 0;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 1rem;
     }
 
     /* Style the logo */
@@ -91,6 +104,22 @@
     .navbar-item:hover .navbar-link {
         color: var(--color-white);
         transition: background-color 1.5s;
+    }
+
+    .navbar-request-quote a {
+        margin-left: 3rem;
+        padding: 1rem;
+        font-weight: bold;
+        color: var(--color-white);
+        background-color: var(--color-red);
+        text-decoration: none;
+        display: inline-block;
+        transform: skewX(-20deg);
+    }
+
+    .navbar-request-quote-text {
+        display: block;
+        transform: skewX(20deg);
     }
 </style>
 

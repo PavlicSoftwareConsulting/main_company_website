@@ -13,8 +13,9 @@
 
 <style>
 	main {
-		margin-left: 3rem;
-		margin-right: 3rem;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
 		flex: 1;
 		display: flex;
 		flex-grow: 1;
