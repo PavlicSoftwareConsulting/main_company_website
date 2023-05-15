@@ -4,7 +4,7 @@
 
 <header>
     <nav class="navbar">
-        <a href="/index" class="navbar-brand">
+        <a href="/" class="navbar-brand">
             <img class="logo" src={logo} alt="Pavlic Software Consulting Logo"/>
         </a>
         <ul class="navbar-menu">
@@ -12,22 +12,22 @@
                 <a href="/about" class="navbar-link">About us</a>
             </li>
             <li class="navbar-item">
-                <a href="/index" class="navbar-link">Services</a>
+                <a href="/" class="navbar-link">Services</a>
             </li>
             <li class="navbar-item">
-                <a href="/index" class="navbar-link">Projects</a>
+                <a href="/" class="navbar-link">Projects</a>
             </li>
             <li class="navbar-item">
-                <a href="/index" class="navbar-link">Careers</a>
+                <a href="/" class="navbar-link">Careers</a>
             </li>
             <li class="navbar-item">
-                <a href="/index" class="navbar-link">Blog</a>
+                <a href="/" class="navbar-link">Blog</a>
             </li>
             <li class="navbar-item">
-                <a href="/index" class="navbar-link">Contact us</a>
+                <a href="/" class="navbar-link">Contact us</a>
             </li>
             <li class="navbar-item">
-                <a href="/index" class="navbar-link">FAQs</a>
+                <a href="/" class="navbar-link">FAQs</a>
             </li>
         </ul>
     </nav>
@@ -45,8 +45,7 @@
     .navbar {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        /* background-color: var(--color-secondary-2); */
+        justify-content: center;
         padding: 1rem;
     }
 
@@ -58,29 +57,40 @@
 
     .navbar .logo {
         margin: 0;
-        height: 4.5rem;
+        height: 4rem;
     }
 
     /* Style the menu list and items */
     .navbar-menu {
+        margin-left: 3rem;
         display: flex;
         list-style-type: none;
         padding: 0;
     }
 
     .navbar-item {
-        margin-left: 1rem;
+        display: flex;
+        border-radius: 5px;
+    }
+
+    .navbar-item:hover {
+        background-color: var(--color-red);
+        transition: background-color 1.5s;
     }
 
     /* Style the menu links */
     .navbar-link {
-        color: var(--color-secondary-1);
+        padding: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        font-weight: bold;
+        color: var(--color-black);
         text-decoration: none;
-        transition: color 0.3s;
     }
 
-    .navbar-link:hover {
-        color: #f2f2f2;
+    .navbar-item:hover .navbar-link {
+        color: var(--color-white);
+        transition: background-color 1.5s;
     }
 </style>
 

@@ -6,14 +6,15 @@
     --font-mono: 'Fira Mono', monospace;
     --column-width: 42rem;
     --column-margin-top: 4rem;
-    --color-primary: #3626A7;
-    --color-secondary-1: #FF331F;
-    --color-secondary-2: #828181;
-    --color-bg:  #FBFBFF;
-    --color-text:#0d0106;
+    --color-red: #FF331F;
+    --color-gray-light: #828181;
+    --color-gray-medium: #484144;
+    --color-gray-dark: #333333;
+    --color-white:  #FBFBFF;
+    --color-black:#0d0106;
     
-    color: var(--color-text);
-    background-color: var(--color-bg);
+    color: var(--color-black);
+    background-color: var(--color-white);
     font-family: var(--font-body);
 }
 
