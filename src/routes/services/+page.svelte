@@ -1,5 +1,5 @@
 <script>
-	import mainHeader from '$lib/images/laptops-593296.jpg';
+	import mainHeader from '$lib/images/startup-594090.jpg';
 </script>
 
 <svelte:head>

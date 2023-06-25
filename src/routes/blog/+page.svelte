@@ -1,9 +1,9 @@
 <script>
-	import mainHeader from '$lib/images/laptops-593296.jpg';
+	import mainHeader from '$lib/images/startup-593342.jpg';
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Blog</title>
 	<meta name="The home page for the Pavlic Software Consulting Company" content="Pavlic Software Consulting Home Page" />
 </svelte:head>
 

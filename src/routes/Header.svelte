@@ -13,22 +13,22 @@
                     <a href="/about" class="navbar-link">About us</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="/" class="navbar-link">Services</a>
+                    <a href="/services" class="navbar-link">Services</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="/" class="navbar-link">Projects</a>
+                    <a href="/projects" class="navbar-link">Projects</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="/" class="navbar-link">Careers</a>
+                    <a href="/careers" class="navbar-link">Careers</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="/" class="navbar-link">Blog</a>
+                    <a href="/blog" class="navbar-link">Blog</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="/" class="navbar-link">Contact us</a>
+                    <a href="/contact_us" class="navbar-link">Contact us</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="/" class="navbar-link">FAQs</a>
+                    <a href="/faqs" class="navbar-link">FAQs</a>
                 </li>
             </ul>
             <div class="navbar-request-quote">
