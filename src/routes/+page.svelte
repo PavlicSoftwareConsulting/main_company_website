@@ -162,7 +162,4 @@
 		color: var(--color-white);
 	}
 	
-	.section-break {
-		height: 50rem;
-	}
 </style>
