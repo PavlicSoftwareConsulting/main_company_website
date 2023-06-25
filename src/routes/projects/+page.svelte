@@ -136,7 +136,7 @@
 <style>
 	.background {
 		width: 100vw;
-		height: 50vh;
+		height: 65vh;
 		background-size: cover;
 		background-position: top center;
 		background-repeat: no-repeat;
