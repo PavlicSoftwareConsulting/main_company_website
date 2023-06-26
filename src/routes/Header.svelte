@@ -41,7 +41,7 @@
 <style>
 
    header {
-        position: sticky;
+        position: fixed;
         top: 0;
         z-index: 999999;
         width: 100%;
