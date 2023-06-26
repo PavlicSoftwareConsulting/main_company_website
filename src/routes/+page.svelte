@@ -72,12 +72,12 @@
 	.call-to-action {
 		position: sticky;
 		width: 100%;
-		height: 65vh;
+		height: 40rem;
 		
 		background-size: cover;
 		background-position: top center;
 		background-repeat: no-repeat;
-		background-attachment: fixed;
+		background-attachment: local;
 
 		display: flex;
 		justify-content: center;
@@ -98,7 +98,6 @@
 		width: 100%;
 		z-index: 2;
 
-		padding: 1rem;
 		border-radius: 20px;
 
 		color: var(--color-white);

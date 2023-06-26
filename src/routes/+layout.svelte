@@ -12,7 +12,7 @@
 
 <style>
 	main {
-		min-height: 100vh;
+		flex: 1;
 		background-color: var(--color-gray-dark);
 	}
 </style>
