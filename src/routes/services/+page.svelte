@@ -7,7 +7,7 @@
 	<meta name="The home page for the Pavlic Software Consulting Company" content="Pavlic Software Consulting Home Page" />
 </svelte:head>
 
-<div class="background" style="background-image: url({mainHeader})"></div>
+<div class="cover-image" style="background-image: url({mainHeader})"></div>
 <div class="content">
 	<section>
 		<h1>Lorem Ipsum</h1>
@@ -134,7 +134,7 @@
 </div>
 
 <style>
-	.background {
+	.cover-image {
 		width: 100vw;
 		height: 65vh;
 		background-size: cover;

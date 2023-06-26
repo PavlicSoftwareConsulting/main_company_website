@@ -43,6 +43,7 @@
    header {
         position: sticky;
         top: 0;
+        z-index: 999999;
         width: 100vw;
         background-color: var(--color-white);
     } 

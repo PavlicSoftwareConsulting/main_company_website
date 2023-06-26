@@ -11,4 +11,8 @@
 <Footer />
 
 <style>
+	main {
+		min-height: 100vh;
+		background-color: var(--color-gray-dark);
+	}
 </style>

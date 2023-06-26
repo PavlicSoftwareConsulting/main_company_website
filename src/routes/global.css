@@ -30,8 +30,6 @@
 
         width: 100vw;
         min-height: 100vh;
-
-        background-color: var(--color-gray-dark);
     }
 }
 
@@ -47,8 +45,6 @@
 
         width: 100vw;
         min-height: 100vh;
-
-        background-color: var(--color-gray-dark);
     }
 }
 
@@ -64,7 +60,5 @@
 
         width: 100vw;
         min-height: 100vh;
-
-        background-color: var(--color-gray-dark);
     }
 }
