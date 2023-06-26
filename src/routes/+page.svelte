@@ -72,12 +72,12 @@
 	.call-to-action {
 		position: sticky;
 		width: 100%;
-		height: 40rem;
+		height: 50rem;
 		
 		background-size: cover;
 		background-position: top center;
 		background-repeat: no-repeat;
-		background-attachment: local;
+		background-attachment: fixed;
 
 		display: flex;
 		justify-content: center;
