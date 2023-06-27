@@ -25,4 +25,9 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  .footer-content h4 {
+    margin: 1rem;
+    font-size: 1.5rem;
+  }
 </style>
